@@ -1,6 +1,6 @@
 <?php
     return array(
-        // "/"=>"AccueilController/Accueil",
+        "/"=>"AccueilController/Accueil",
         // "user"=>"UsersController/getUser",
         // 'modifier/{$1}'=>"UsersController/edit",
         // 'supprimer/{$1}'=>"UsersController/delete",
