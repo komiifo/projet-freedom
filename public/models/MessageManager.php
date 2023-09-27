@@ -17,7 +17,7 @@
             $sql = ("SELECT * FROM message");
             $datas = $bdd->select($sql);
             foreach($datas as $data){
-                $addMessage = new Message($data['idMessage'],$data['labelMessage'],$data['dateMessage'],$data['id_commentaire'],$data['id_user']);
+                $addMessage = new Message($data['idMessage'], $data['labelMessage'], $data['dateMessage'], $data['id_commentaire'], $data['id_user']);
                 $this->ajoutMessage($addMessage);
             }
         }

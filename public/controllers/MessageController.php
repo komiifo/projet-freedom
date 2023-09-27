@@ -14,7 +14,8 @@
         }
 
         public function affichage(){
-            // $messages = $this->messageManager->getMessage();
+            $messages = $this->messageManager->getMessage();
+            // $test = 'coucou';
             // var_dump($messages);
             require "public/views/message.php";
         }

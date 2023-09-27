@@ -9,7 +9,7 @@ const CLASSES_SOURCES = [
     'public/assets/css',
     'public/controllers',
     'public/models',
-    'public/views',
+    // 'public/views',
     
 	
 
